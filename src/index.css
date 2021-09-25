@@ -27,6 +27,7 @@ body {
   font-family: sans-serif;
   background: #000000;
   color: #fff;
+  font-family: var(--main-font);
 }
 
 h1,
@@ -70,8 +71,16 @@ h3 {
   color: white;
 }
 
+.margin-top-medium {
+  margin-top: 10rem;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 10rem;
+}
+
 @media (max-width: 768px) {
-  html {
-    font-size: 50%;
+  .container {
+    width: 85%;
   }
 }

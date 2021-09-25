@@ -1,0 +1,49 @@
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  padding: 1.5rem;
+  border: 3px solid var(--fifth-color);
+  border-radius: 0.8rem;
+  filter: grayscale(100%);
+  transition: filter 0.2s ease-in-out;
+}
+
+.card img:hover {
+  cursor: pointer;
+  filter: none;
+}
+
+.card h3 {
+  margin: 1rem 0;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.built {
+  text-decoration: underline;
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.card h3,
+.description,
+.built {
+  color: var(--third-color);
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 1.3rem;
+  }
+
+  .built {
+    font-size: 1rem;
+  }
+}

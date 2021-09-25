@@ -67,11 +67,11 @@
 
 @media (max-width: 768px) {
   .greeting {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
 
   .coder {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .button {

@@ -8,6 +8,7 @@
   justify-content: flex-end;
   background-color: #000;
   padding: 0 5%;
+  z-index: 1;
 }
 
 .header ul {
@@ -30,4 +31,14 @@
 
 .header li {
   margin-left: 3rem;
+}
+
+@media (max-width: 768px) {
+  .header a {
+    font-size: 1.5rem;
+  }
+
+  .header li {
+    margin-left: 2rem;
+  }
 }
