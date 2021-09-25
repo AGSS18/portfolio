@@ -5,6 +5,8 @@ import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 
+import './index.css';
+
 
 function App() {
   return (

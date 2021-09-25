@@ -1,0 +1,80 @@
+.hero {
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-image: url("../../media/coding_2_1.jpg");
+  background-size: cover;
+}
+
+.hero,
+.hero-text {
+  display: flex;
+}
+
+.hero-content {
+  margin-left: 5%;
+}
+
+.hero-text {
+  display: block;
+}
+
+.greeting,
+.coder,
+.frontend {
+  margin: 0;
+}
+
+.greeting,
+.frontend {
+  color: var(--fifth-color);
+}
+
+.greeting {
+  font-size: 7.5rem;
+}
+
+.coder {
+  color: var(--primary-color);
+  font-size: 11rem;
+}
+
+.coder-pronoun {
+  color: var(--secondary-color);
+}
+
+.frontend {
+  font-size: 3rem;
+}
+
+.button {
+  width: fit-content;
+  padding: 1rem 2rem;
+  margin-top: 6.5rem;
+  border: 1px solid var(--fifth-color);
+  border-radius: 0.6rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.button:hover {
+  border: 1px solid var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .greeting {
+    font-size: 5.5rem;
+  }
+
+  .coder {
+    font-size: 7rem;
+  }
+
+  .button {
+    margin-top: 4rem;
+  }
+}
