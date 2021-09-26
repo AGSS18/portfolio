@@ -1,6 +1,8 @@
 import LatestProjects from "../components/home-components/LatestProjects";
 import classes from './Home.module.css';
 import projectsData from '../projectsData';
+import servicesData from "../servicesData";
+import Services from "../components/home-components/Services";
 
 function Home() {
     return(
@@ -20,6 +22,18 @@ function Home() {
                             />
                         );
                     } else{ return  null}
+                })}
+            </div>
+            <h2 className={classes["services-title"]}>Services</h2>
+            <div className={classes["home-services"]}>
+                {servicesData.map(service => {
+                    return(
+                        <Services 
+                        key={service.id} 
+                        icon={service.icon} 
+                        title={service.title} 
+                        />
+                    );
                 })}
             </div>
         </div>

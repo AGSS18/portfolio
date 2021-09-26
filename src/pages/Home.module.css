@@ -1,4 +1,5 @@
-.latest-title {
+.latest-title,
+.services-title {
   text-align: center;
   color: var(--secondary-color);
   font-size: 5rem;
@@ -12,6 +13,12 @@
   row-gap: 2rem;
 }
 
+.home-services {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .latest-title {
     font-size: 3.5rem;
@@ -20,5 +27,9 @@
   .latest-projects {
     grid-template-columns: 1fr;
     row-gap: 1rem;
+  }
+
+  .home-services {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
