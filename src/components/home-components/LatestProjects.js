@@ -3,7 +3,7 @@ import classes from './LatestProjects.module.css';
 function LatestProjects(props) {
     return(
         <div className={classes.card} >
-            <a href={props.url} target="_blank" rel="noreferrer">
+            <a href={props.url} target="_blank" rel="noreferrer" title={props.title} >
                 <img src={props.image} alt={props.title} />
             </a>
             <h3>{props.title}</h3>

@@ -73,6 +73,12 @@
   margin: 0;
 }
 
+.contact-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .greeting {
     font-size: 5rem;
@@ -84,5 +90,14 @@
 
   .button {
     margin-top: 4rem;
+  }
+
+  .about,
+  .work {
+    font-size: 6.5rem;
+  }
+
+  .contact {
+    font-size: 5.5rem;
   }
 }
